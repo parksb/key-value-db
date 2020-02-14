@@ -2,7 +2,7 @@ use clap::{App, Arg};
 use std::process::exit;
 
 pub fn main() {
-    let matches = App::new("muriel")
+    let matches = App::new("kvs")
         .version(env!("CARGO_PKG_VERSION"))
         .subcommand(
             App::new("set")
